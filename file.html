@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial -scale=1.0 ">
+        <title>Number System Converter</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <h1>Number System Converter</h1>
+            <br/><br/>
+            <div id="select-container">
+                <select id="from-select">
+                    <option value="from-binary">Binary</option>
+                    <option value="from-decimal">Decimal</option>
+                    <option value="from-hexadecimal">hexadecimal</option>
+                    <option value="from-octal">Octal</option>
+                </select>
+                <span>to</span>
+                <select id="to-select">
+                    <option value="to-binary">Binary</option>
+                    <option value="to-decimal">decimal</option>
+                    <option value="to-hexadecimal">Hexadecimal</option>
+                    <option value="to-octal">octal</option>
+                </select>
+            </div>
+            <br>
+            <div id="input-container">
+                <input type="text" id="from-input" placeholder=" ">
+                <span id="error"></span>
+            </div>
+            <br>
+
+            <button id="convert-button">Convert</button>
+            <input type="text" id="to-input" placeholder=" " readonly><br><br><br>
+            
+            <table>
+                <table border="0" cellpadding="8" cellspacing="4"></table>
+                <caption><i><h3>Members</h3></i></caption>
+                <tr>
+                    <th><b>Name</b></th>
+                    <th><b>Reg No</b></th>
+                </tr>
+                <br>
+
+                <tr>
+                    <th>Brian wahome</th>
+                    <th>CT101/G/16015/22</th>
+                </tr>
+                <br>
+
+                <tr>
+                    <th>Paul Gichuki</th>
+                    <th>CT101/G/16014/22</th>
+                </tr>
+                <br>
+                
+            </table>
+        </main>
+    </body>
+</html>
